@@ -27,11 +27,17 @@ The results are displayed in a clean, user‑friendly interface with tables, met
   - Custom output structure  
 
 ### ✅ Clean, Modular Architecture
-```your-app/ │ ├── app.py                # Streamlit UI ├── azure_upload.py       # Uploads files to Azure Blob Storage ├── test_model.py         # Runs the custom Document Intelligence model ├── schema.json           # Optional output formatting rules └── .streamlit/ └── secrets.toml      # Secure secrets for deployment
 ```
-
-
----
+your-app/
+│
+├── app.py                 # Streamlit UI
+├── azure_upload.py        # Uploads files to Azure Blob Storage
+├── test_model.py          # Runs the custom Document Intelligence model
+├── schema.json            # Optional output formatting rules
+│
+└── .streamlit/
+    └── secrets.toml       # Secure secrets for deployment (Streamlit Cloud)
+```
 
 ## 🧩 Module Overview
 
