@@ -1,0 +1,7 @@
+{
+    "rename_fields": {
+      "InvoiceNumber": "invoice_id",
+      "CustomerName": "client_name"
+    },
+    "include_confidence": false
+  }
