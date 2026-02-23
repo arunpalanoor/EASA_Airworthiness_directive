@@ -2,3 +2,4 @@ azure-ai-formrecognizer==3.3.3
 azure-storage-blob
 streamlit
 pandas
+dotenv
